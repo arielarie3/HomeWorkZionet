@@ -6,18 +6,17 @@
 int main()
 {
 	char str[100];
-	printf("Please enter a string: ");
+	printf("Please enter a string with at least 10 characters: ");
 	gets(str);
 	int s = strlen(str);
 	while (s < 10)
 	{
-		printf("Please enter another string: ");
+		printf("Please enter another string with at least 10 characters: ");
 		gets(str);
 		s = strlen(str);
 
 	}
 
-	
+
 	getch();
 	return 0;
-}
