@@ -10,11 +10,11 @@ int main()
 	{
 		printf("Please enter a string: ");
 		char str[15];
-		scanf("%s", str);
+		gets(str);
 		printf("the second char for this string is %c\n", str[1]);
 	}
 
-	
+
 	getch();
 	return 0;
 }
